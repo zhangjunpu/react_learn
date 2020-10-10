@@ -13,7 +13,7 @@ class ProfileHeader extends Component {
     }
 }
 
-class Prifile extends Component {
+class Profile extends Component {
     render() {
         return (
             <div>
@@ -33,11 +33,11 @@ export default class App extends Component {
         }
     }
     render() {
-        const { name, age, height } = this.state
+        // const { name, age, height } = this.state
         return (
             <div>
                 {/* <Prifile name={name} age={age} height={height} /> */}
-                <Prifile {...this.state} />
+                <Profile {...this.state} />
             </div>
         )
     }
