@@ -14,6 +14,9 @@ import ReactDOM from 'react-dom';
 // import App from "./03_setState/01_setState_异步";
 // import App from "./03_setState/02_setState_同步";
 // import App from "./03_setState/03_setState合并";
-import App from "./03_setState/04_pureComponent_memo";
+// import App from "./03_setState/04_pureComponent_memo";
+
+// import App from "./04_受控非受控组件/01_ref的使用";
+import App from "./04_受控非受控组件/02_form_input";
 
 ReactDOM.render(<App />, document.getElementById('root'));
