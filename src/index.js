@@ -19,6 +19,7 @@ import ReactDOM from 'react-dom';
 // import App from "./04_受控非受控组件/01_ref的使用";
 // import App from "./04_受控非受控组件/02_form_input";
 // import App from "./04_受控非受控组件/03_form_checkbox";
-import App from "./04_受控非受控组件/04_form_radio";
+// import App from "./04_受控非受控组件/04_form_radio";
+import App from "./04_受控非受控组件/05_form_select";
 
 ReactDOM.render(<App />, document.getElementById('root'));

@@ -27,10 +27,10 @@ export default class App extends PureComponent {
                                         <label htmlFor={item.id}>
                                             <input
                                                 type="checkbox"
+                                                id={item.id}
                                                 name="hobby"
                                                 value={item.id}
                                                 checked={this.state.hobbies.includes(item.id)}
-                                                id={item.id}
                                                 onChange={e => this.handleHobbyChange(e)}
                                             />
                                             {item.name}

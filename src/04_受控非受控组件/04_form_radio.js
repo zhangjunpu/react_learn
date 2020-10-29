@@ -21,10 +21,10 @@ export default class App extends PureComponent {
                                     <label htmlFor={index}>
                                         <input
                                             type="radio"
-                                            name="sex"
-                                            checked={this.state.sex === item}
                                             id={index}
+                                            name="sex"
                                             value={item}
+                                            checked={this.state.sex === item}
                                             onChange={e => this.handleChange(e)}
                                         />
                                         {item}
