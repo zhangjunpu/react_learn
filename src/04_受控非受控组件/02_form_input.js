@@ -28,7 +28,7 @@ export default class App extends PureComponent {
                         <label htmlFor="password">
                             密码：
                         <input
-                                type="text"
+                                type="password"
                                 id="password"
                                 name="password"
                                 value={this.state.password}
@@ -39,7 +39,7 @@ export default class App extends PureComponent {
                         <label htmlFor="valid">
                             验证密码：
                         <input
-                                type="text"
+                                type="password"
                                 id="valid"
                                 name="valid"
                                 value={this.state.valid}
